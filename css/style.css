@@ -1,0 +1,21 @@
+/* DEBUG:  */
+.debug [class*="col_"]{
+  height: 200px;
+  line-height: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#ultima_col,
+#ultima_col_2{
+  padding: 4px;
+}
+
+#ultima_col > div,
+#ultima_col_2 > div{
+  height: 100%;
+  vertical-align: middle;
+  background-color: #e68c8c;
+  border: 1px solid pink;
+}
